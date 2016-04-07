@@ -1,5 +1,6 @@
 # Logs
 logs
+test_logs
 *.log
 
 # Runtime data
@@ -28,3 +29,21 @@ node_modules
 
 # Emacs
 *~
+
+# WebStorm/IntelliJ
+.idea
+
+# visual studio code
+.vscode
+
+# Babel.js
+lib/
+
+# cache folder
+.cache
+
+# Mac DS_Store files
+.DS_Store
+
+# Folder created by FileSystemAdapter
+/files
