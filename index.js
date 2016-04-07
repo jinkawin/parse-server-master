@@ -12,7 +12,7 @@ if (!databaseUri) {
 }
 
 var api = new ParseServer({
-  databaseURI: databaseUri || 'mongodb://heroku_rm5h9ccs:fi5n746qhjmk6ahla5f0ofccqv@ds015919.mlab.com:15919/heroku_rm5h9ccs',
+  databaseURI: databaseUri || 'mongodb://maiwinpeach:2D!vide3@ds015919.mlab.com:15919/heroku_rm5h9ccs',
   cloud: process.env.CLOUD_CODE_MAIN || __dirname + '/cloud/main.js',
   appId: process.env.APP_ID || 'NwhuqaQ1sAVH29RWbeJLYlBf1hqHX6CxZU6t7SPY',
   masterKey: process.env.MASTER_KEY || 'GFWKSaFK0HeSyW1e6NTUeBVGjgWhI1mUCpb9yII7', //Add your master key here. Keep it secret!
