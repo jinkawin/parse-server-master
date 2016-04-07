@@ -12,10 +12,10 @@ if (!databaseUri) {
 }
 
 var api = new ParseServer({
-  databaseURI: databaseUri || 'mongodb://maiwinpeach:2D!vide3@ds015919.mlab.com:15919/heroku_rm5h9ccs',
+  databaseURI: databaseUri || 'mongodb://maiwinpeach:2Divide3@ds019480.mlab.com:19480/redle',
   cloud: process.env.CLOUD_CODE_MAIN || __dirname + '/cloud/main.js',
-  appId: process.env.APP_ID || 'NwhuqaQ1sAVH29RWbeJLYlBf1hqHX6CxZU6t7SPY',
-  masterKey: process.env.MASTER_KEY || 'GFWKSaFK0HeSyW1e6NTUeBVGjgWhI1mUCpb9yII7', //Add your master key here. Keep it secret!
+  appId: process.env.APP_ID || 'waPsEIBcbwW08IwOzw4kUQg4w3zNC5DIGUl6Fryc',
+  masterKey: process.env.MASTER_KEY || 'WzrascAsit2vUMurx4OA2NzYvverSL3GmUKpVuaU', //Add your master key here. Keep it secret!
   serverURL: process.env.SERVER_URL || 'http://redel.herokuapp.com/parse',  // Don't forget to change to https if needed
   liveQuery: {
     classNames: ["Posts", "Comments"] // List of classes to support for query subscriptions
